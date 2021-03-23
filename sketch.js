@@ -4,7 +4,7 @@ var cells = []; //the array containing cells
 var virus = []; //the array containing viruses
 var chances = 1;//total chances you have that means total viruses you can make by clicking
 function setup(){
- createCanvas(550,550);
+ createCanvas(1000,550);
  cells[0]=new Cell(random(-width/2,width/2),random(-height/2,height/2)); //making the first cell in a random place
  cells[1]=new Cell(random(-width/2,width/2),random(-height/2,height/2));
  }
