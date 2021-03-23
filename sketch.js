@@ -1,4 +1,4 @@
-var maxcells = 500; //maximum number of cells after reaching this number cells will grow withoutdoing mitozis
+var maxcells = 5000; //maximum number of cells after reaching this number cells will grow withoutdoing mitozis
 var deaths = 0; //a variable for displaying the number of death
 var cells = []; //the array containing cells
 var virus = []; //the array containing viruses
